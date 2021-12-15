@@ -41,7 +41,8 @@ button.btn {
   height: 200px;
   width: auto;
 
-  background: url(/images/showCase.jpg);
+  background: url(./images/showCase.jpg);
+
 
   background-size: cover;
 }
