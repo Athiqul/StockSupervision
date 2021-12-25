@@ -252,6 +252,9 @@ padding: 5px;
 
 
     @media (max-width: 580px) {
+        body{
+        overflow-x:hidden !important;
+        }
         .subscribe2-wrapper .subscribe-form input{
             margin: auto 50%;
             transform:translateX(-50%);
