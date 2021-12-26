@@ -269,9 +269,15 @@ padding: 5px;
 
 
     @media (max-width: 580px) {
+<<<<<<< HEAD
       *{
           overflow-x: hidden;
       }
+=======
+        body{
+        overflow-x:hidden !important;
+        }
+>>>>>>> df837ec430a8b3ad59a8e659f0c04d39ff36ff01
         .subscribe2-wrapper .subscribe-form input{
             margin: auto 50%;
             transform:translateX(-50%);
