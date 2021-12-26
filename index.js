@@ -18,6 +18,7 @@ console.log(showcase.getBoundingClientRect().top);
 console.log(window.innerHeight);
 searchBtn.addEventListener("click",()=>{
     topView=showcase.getBoundingClientRect().top;
+    console.log(topView);
     if(topView<-132)
     {
 

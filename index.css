@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   
   body {
     overflow-x: hidden !important;
     font-family: 'Montserrat',sans-serif;
   }
+ 
   .inactive {
     display: none !important;
   }
@@ -30,7 +32,16 @@
       background-color: transparent;
 
  }
-
+ h1,h2,h3,h4,h4,h6{
+   overflow: hidden;
+ }
+ .row{
+   overflow-x: hidden;
+ }
+.card{
+  overflow: hidden !important;
+  padding: 0 10px;
+}
 
   .btn:focus {
     outline: none !important;
@@ -45,9 +56,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 200px;
+    overflow:none ;
   }
   /* showCase */
   #showCase {
+    margin-top: 76px;
     height: 200px;
     width: auto;
   
@@ -55,6 +68,7 @@
   
     
     background-size: cover;
+    background-attachment: fixed;
   }
   
   /* search bar */
@@ -234,11 +248,14 @@ padding: 5px;
   font-family: 'lato',sans-serif;
 }
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 
 /*Customer Review*/
+#Customer_Review{
+  overflow: hidden;
+}
 .review-img{
   border-radius: 50%;
   width: 150px !important;
@@ -252,6 +269,9 @@ padding: 5px;
 
 
     @media (max-width: 580px) {
+      *{
+          overflow-x: hidden;
+      }
         .subscribe2-wrapper .subscribe-form input{
             margin: auto 50%;
             transform:translateX(-50%);
