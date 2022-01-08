@@ -1,0 +1,119 @@
+/* Categories */
+/* Navbar*/
+.inactive {
+  display: none !important;
+}
+.onactive {
+  display: block !important;
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-size: 18px;
+}
+.nav-ico {
+  color: white;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.btn{
+    background-color: transparent;
+
+}
+/* showCase */
+#showCase {
+  margin-top: 76px;
+  height: 200px;
+  width: auto;
+
+  background: url(./showCase.jpg);
+
+  background-size: cover;
+}
+/* search bar */
+.height {
+  height: 200px;
+}
+
+.form {
+  position: relative;
+}
+.search-bar {
+  opacity: 0.8;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+
+/* Breadcrum */
+.breadcrumb {
+  background: none !important;
+}
+/* Categories title */
+.cat-title {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 16px;
+}
+#categories {
+  margin-top: 20px;
+}
+.card-section {
+  padding: 20px;
+}
+.cat-heading {
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 10px !important;
+}
+.p-price {
+  color: red;
+}
+
+/* card title limit */
+.max-lines {
+  overflow: hidden;
+  text-overflow: initial;
+  height: 50px;
+  text-align: center;
+}
+/* Pagination */
+.pagination > li > a,
+.pagination > li > span {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}

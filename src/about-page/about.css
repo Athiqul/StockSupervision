@@ -45,21 +45,35 @@
 
   }
   .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:300px;
   }
-  /* showCase */
-  #showCase {
-    height: 200px;
-    width: auto;
-  
-    background: url(./images/showCase.jpg);
-  
-    
+  .top_clear{
+    margin-top: 76px;
+    background-image: url('./Bulk-Barn.jpg');
     background-size: cover;
+    position:relative;
+
   }
-  
+  .position-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);  
+  }
+
+  /*image in about us*/
+  .img-size{
+    margin: auto 50%;
+    height: 300px !important;
+    max-width: 100%;
+    transform: translateX(-50%);
+  }
+  /*icon design*/
+  .fa{
+    font-size: 50px;
+  }
   /* search bar */
   .height {
     height: 30vh;
@@ -259,5 +273,9 @@ padding: 5px;
             margin: auto 50%;
             transform:translateX(-50%);
         }
+        .res-mar{
+          margin-bottom: 10px;
+        }
         
     }
+  
